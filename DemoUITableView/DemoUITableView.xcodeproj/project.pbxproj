@@ -14,6 +14,7 @@
 		39B473D61F0D1303009FCFF3 /* DemoUITableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B473D51F0D1303009FCFF3 /* DemoUITableViewTests.swift */; };
 		39B473E11F0D1303009FCFF3 /* DemoUITableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B473E01F0D1303009FCFF3 /* DemoUITableViewUITests.swift */; };
 		39BC0D9C1F10F9FA00D343D6 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BC0D9B1F10F9FA00D343D6 /* FirstTableViewController.swift */; };
+		39BC0D9E1F10FF2800D343D6 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BC0D9D1F10FF2800D343D6 /* SecondTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		39B473E01F0D1303009FCFF3 /* DemoUITableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITableViewUITests.swift; sourceTree = "<group>"; };
 		39B473E21F0D1303009FCFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39BC0D9B1F10F9FA00D343D6 /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		39BC0D9D1F10FF2800D343D6 /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				39B473BE1F0D1303009FCFF3 /* AppDelegate.swift */,
-				39B473C41F0D1303009FCFF3 /* Main.storyboard */,
 				39BC0D9B1F10F9FA00D343D6 /* FirstTableViewController.swift */,
+				39BC0D9D1F10FF2800D343D6 /* SecondTableViewController.swift */,
+				39B473C41F0D1303009FCFF3 /* Main.storyboard */,
 				39B473C71F0D1303009FCFF3 /* Assets.xcassets */,
 				39B473C91F0D1303009FCFF3 /* LaunchScreen.storyboard */,
 				39B473CC1F0D1303009FCFF3 /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39BC0D9C1F10F9FA00D343D6 /* FirstTableViewController.swift in Sources */,
+				39BC0D9E1F10FF2800D343D6 /* SecondTableViewController.swift in Sources */,
 				39B473BF1F0D1303009FCFF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
